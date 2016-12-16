@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
       <a routerLink="/courses" routerLinkActive="active">Courses</a>
       <a routerLink="/teacher" routerLinkActive="active">Teacher</a>
     </nav>
-    <router-outlet></router-outlet>  
+   <router-outlet></router-outlet>  
   `
   // templateUrl: './app.component.html',
   // styleUrls: ['./app.component.css']

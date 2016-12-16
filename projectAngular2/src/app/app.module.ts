@@ -10,6 +10,7 @@ import { AppComponent } from './app.component';
 import { CoursesComponent } from './courses/courses.component';
 import { HomeComponent } from './home/home.component';
 import { TeacherComponent } from './teacher/teacher.component';
+import { NowComponent } from './courses/now/now.component';
 
 const appRoutes:Routes = [
   { path : 'home', component : HomeComponent},
@@ -22,7 +23,8 @@ const appRoutes:Routes = [
     AppComponent,
     HomeComponent,
     CoursesComponent,
-    TeacherComponent
+    TeacherComponent,
+    NowComponent
   ],
   imports: [
     BrowserModule,
